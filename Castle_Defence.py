@@ -15,7 +15,7 @@ Game_over = False
 Next_wave= False
 Enemies_alive = 0
 
-ENEMY_TIMER = 1500
+ENEMY_TIMER = random.randint(1000, 2000)
 
 # get_ticks() -> returns the current time stamp registered in pygame
 last_enemy = pygame.time.get_ticks()
