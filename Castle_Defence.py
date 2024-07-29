@@ -283,7 +283,7 @@ class Enemy(pygame.sprite.Sprite):
         if self.alive:
             # Check for collision with bullet clones
             if pygame.sprite.spritecollide(self, bullet_group, True):
-                self.health = self.health - 100
+                self.health = self.health - 25
 
             # Move enemy - to shift hitbox to the right on each frame
             if self.action == 0:
