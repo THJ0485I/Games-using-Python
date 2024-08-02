@@ -28,6 +28,10 @@ SCREEN_HEIGHT = 1000  # Y
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("PROTECT NO ONE CASTLE DEFENSE GAME")
 
+
+# Create game window
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+
 # Create a clock object
 clock = pygame.time.Clock()
 FPS = 60
@@ -53,7 +57,7 @@ def draw_text(text, font, colour, x, y):
     screen.blit(label, (x, y))
 
 
-# Play BG music
+# Play BackGround music
 pygame.mixer.music.load('PygameAssets/spotifydown.com - Ghost.mp3')
 pygame.mixer.music.play(-1)
 pygame.mixer.music.set_volume(0.03)
@@ -62,9 +66,9 @@ pygame.mixer.music.set_volume(0.03)
 # Music
 
 # Parameters to load enemy images
-# Enemy_Types = ['1_KNIGHT', '2_KNIGHT', '3_KNIGHT'] (For in-case use)
+
 # Creating animation_type list
-# animation_types = ['attack', 'death', 'walk'] (For in-case use)
+
 
 # Nested for loops used to load all enemy images
 master_enemy_animation = []  # A 3D list [ [ [], [], [] ], [ [], [], [] ], [ [], [], [] ] ]
