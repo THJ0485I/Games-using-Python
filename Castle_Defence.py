@@ -48,7 +48,7 @@ b_h = bullet_image.get_height()
 bullet_image = pygame.transform.scale(bullet_image, (int(b_w * 0.2), int(b_h * 0.2)))
 
 # Define some game fonts
-Font_HUD = pygame.font.SysFont("No One", 60)  # HUD = Heads Up Display
+Font_HUD = pygame.font.SysFont("No One", 60)  # HUD -> Heads Up Display
 
 # Define a function to display text on the screen
 def draw_text(text, font, colour, x, y):
