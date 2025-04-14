@@ -1,3 +1,5 @@
+#get the images and sound effects 
+
 # Import libraries
 import pygame
 import math
@@ -26,7 +28,7 @@ SCREEN_HEIGHT = 1000  # Y
 
 # Create game window
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("PROTECT NO ONE CASTLE DEFENSE GAME")
+pygame.display.set_caption("Gay")
 
 
 # Create game window
